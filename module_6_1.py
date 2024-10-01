@@ -33,7 +33,7 @@ class Flower(Plant):
 
 class Fruit(Plant):
     def __init__(self, name, edible=True):
-        super().__init__(name, edible)  # Вызов конструктора родительского класса
+        super().__init__(name, edible)  
 
 
 if __name__ == "__main__":
@@ -48,8 +48,8 @@ if __name__ == "__main__":
     print(a1.alive)
     print(a2.fed)
 
-    a1.eat(p1)  # Волк пытается съесть цветок
-    a2.eat(p2)  # Хатико пытается съесть фрукт
+    a1.eat(p1)  
+    a2.eat(p2)  
 
     print(a1.alive)
     print(a2.fed)
